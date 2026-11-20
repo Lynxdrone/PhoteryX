@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://lynxdronefr-my.sharepoint.com/:u:/g/personal/hemant_ramphul_lynxdrone_fr/IQDJ8gqezBE2SK2Yq_nzFLvgAX_-i7D88Liny4DBmNEFRGs?e=ry6jzV">
+  <a href="https://github.com/Lynxdrone/PhoteryX/releases/download/v5.2.8/PhoteryX.Setup.5.2.8.exe">
     <img src="https://img.shields.io/badge/Download-PhoteryX%205.2.8-14a38b?style=for-the-badge" alt="Download PhoteryX 5.2.8">
   </a>
 </p>

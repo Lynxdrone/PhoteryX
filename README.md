@@ -36,7 +36,7 @@
 
 ## Choose your language · Choisissez votre langue
 
-<table>
+<table align="center">
   <tr>
     <td align="center" width="50%">
       <br>
@@ -78,7 +78,7 @@
 | 2️⃣  | **Install** it: _I Agree_ › _Install_ › _Finish_ | **Installez-le** : _J'accepte_ › _Installer_ › _Fermer_              |
 | 3️⃣  | **Activate** it with your e-mail and license key | **Activez-le** avec votre e-mail et votre clé de licence             |
 
-> Download link not working? Use the direct link: [PhoteryX Setup 5.2.8.exe](https://lynxdronefr-my.sharepoint.com/:u:/g/personal/hemant_ramphul_lynxdrone_fr/IQDJ8gqezBE2SK2Yq_nzFLvgAX_-i7D88Liny4DBmNEFRGs?e=ry6jzV)<br>
+> Download link not working? Use the direct link: [PhoteryX Setup 5.2.8.exe](https://github.com/Lynxdrone/PhoteryX/releases/download/v5.2.8/PhoteryX.Setup.5.2.8.exe)<br>
 > _Le bouton ne fonctionne pas ? Utilisez le lien direct ci-dessus._
 
 ## Support

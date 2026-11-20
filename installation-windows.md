@@ -27,7 +27,7 @@ PhoteryX is Lynxdrone's 3D inspection software. It shows your robot's point clou
 | Disk space    | 1 GB for the application              | SSD with 50 GB free for your missions                                        |
 | Screen        | 1920 × 1080                           | 1920 × 1080 or higher                                                        |
 
-- **Internet:** needed to activate the license the first time. After that, PhoteryX works offline, but connect it to the Internet at least once every 15 days to renew the license.
+- **Internet:** needed to activate the license the first time. After that, PhoteryX works offline, but connect it to the Internet at least once every 14 days to renew the license.
 - **Administrator rights:** not needed.
 
 **How to check your computer:**
@@ -45,7 +45,7 @@ You do not need to disable your antivirus.
 
 1. Double-click **PhoteryX Setup X.X.X.exe** (provided by Lynxdrone).
 
-   If Windows shows a blue **Windows protected your PC** window, click **More info**, then **Run anyway**. This is normal: Windows does not know the installer yet. On a French Windows, the buttons are *Informations complémentaires* and *Exécuter quand même*.
+   If Windows shows a blue **Windows protected your PC** window, click **More info**, then **Run anyway**. This is normal: Windows does not know the installer yet. On a French Windows, the buttons are _Informations complémentaires_ and _Exécuter quand même_.
 
    ![Click More info](images/smartscreen-more-info.png)
    ![Click Run anyway](images/smartscreen-run-anyway.png)
@@ -88,12 +88,12 @@ Connect the computer to the Internet, fill in the window and click **Activate li
 
 A mission uses up to four files, one of each type (up to about 8 GB each):
 
-| File             | Content                                          |
-| ---------------- | ------------------------------------------------ |
+| File             | Content                                             |
+| ---------------- | --------------------------------------------------- |
 | `.json`          | Mission information (required, creates the mission) |
-| `.csv`           | Robot trajectory                                 |
-| `.laz` or `.pcd` | 3D point cloud                                   |
-| `.mp4`           | Inspection video                                 |
+| `.csv`           | Robot trajectory                                    |
+| `.laz` or `.pcd` | 3D point cloud                                      |
+| `.mp4`           | Inspection video                                    |
 
 Drag the files onto the **Auto Create** zone of the dashboard. PhoteryX creates the mission and uploads the files.
 
@@ -101,13 +101,13 @@ Drag the files onto the **Auto Create** zone of the dashboard. PhoteryX creates 
 
 Each mission in the list has these buttons (hover over a button to see its name):
 
-| Button           | Action                                                 |
-| ---------------- | ------------------------------------------------------ |
+| Button           | Action                                                  |
+| ---------------- | ------------------------------------------------------- |
 | Green outline    | Inspect the mission (appears when the mission is ready) |
-| Orange           | Open the mission details and add files                 |
-| Blue             | Create a report                                        |
-| Green (download) | Download the whole mission as a ZIP file               |
-| Red              | Delete the mission                                     |
+| Orange           | Open the mission details and add files                  |
+| Blue             | Create a report                                         |
+| Green (download) | Download the whole mission as a ZIP file                |
+| Red              | Delete the mission                                      |
 
 You can also create a mission by hand: click **New mission**, fill in the form, click **Save**, then add the files from the mission details.
 
@@ -129,12 +129,12 @@ Click **Report** (top right of the viewer, or in the mission details) to create 
 
 ## 4. Update, back up and uninstall
 
-|                                       | Update  |  Uninstall  |
-| ------------------------------------- | :-----: | :---------: |
+|                                       | Update  | Uninstall  |
+| ------------------------------------- | :-----: | :--------: |
 | Missions and files                    | ✅ Kept | ❌ Deleted |
 | Captures, points of interest, remarks | ✅ Kept | ❌ Deleted |
 | License activation and PIN            | ✅ Kept | ❌ Deleted |
-| Reports already exported              | ✅ Kept |   ✅ Kept   |
+| Reports already exported              | ✅ Kept |  ✅ Kept   |
 
 ### 4.1 Update PhoteryX
 
@@ -207,17 +207,6 @@ To fix it:
 5. Restart PhoteryX. The dedicated card is now used.
 
    ![Correct card in use: the NVIDIA GPU 0 is active](images/gpu-correct.png)
-
----
-
-## For IT administrators
-
-| Item                | Details                                                                                                                                 |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| License server      | Outbound HTTPS (TCP 443) to `inspectorx-license-server-vj00.onrender.com`, for license activation and renewal.                          |
-| Local service       | PhoteryX runs a background service on `127.0.0.1`, TCP port 4451. Local connections only: no inbound firewall rule is needed. The port must be free. |
-| Installation folder | `%LOCALAPPDATA%\Programs\PhoteryX` (per-user installation, no administrator rights).                                                    |
-| Antivirus           | If PhoteryX files are blocked or quarantined, add an exclusion for the installation folder.                                            |
 
 ---
 

@@ -29,7 +29,7 @@ _Les captures d'écran montrent PhoteryX en anglais ; les libellés français so
 | Espace disque   | 1 Go pour l'application               | SSD avec 50 Go libres pour vos missions                                          |
 | Écran           | 1920 × 1080                           | 1920 × 1080 ou plus                                                              |
 
-- **Internet :** nécessaire pour activer la licence la première fois. Ensuite, PhoteryX fonctionne hors ligne, mais connectez-le à Internet au moins une fois tous les 15 jours pour renouveler la licence.
+- **Internet :** nécessaire pour activer la licence la première fois. Ensuite, PhoteryX fonctionne hors ligne, mais connectez-le à Internet au moins une fois tous les 14 jours pour renouveler la licence.
 - **Droits administrateur :** non nécessaires.
 
 **Comment vérifier votre ordinateur :**
@@ -208,18 +208,7 @@ Pour corriger :
 
 5. Relancez PhoteryX. La carte dédiée est maintenant utilisée.
 
-   ![Bonne carte utilisée : le GPU 0 NVIDIA est actif](images/gpu-correct.png)
-
----
-
-## Pour les administrateurs informatiques
-
-| Élément                | Détails                                                                                                                                                    |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Serveur de licences    | HTTPS sortant (TCP 443) vers `inspectorx-license-server-vj00.onrender.com`, pour l'activation et le renouvellement de la licence.                          |
-| Service local          | PhoteryX exécute un service en arrière-plan sur `127.0.0.1`, port TCP 4451. Connexions locales uniquement : aucune règle de pare-feu entrante n'est nécessaire. Le port doit être libre. |
-| Dossier d'installation | `%LOCALAPPDATA%\Programs\PhoteryX` (installation par utilisateur, sans droits administrateur).                                                             |
-| Antivirus              | Si des fichiers de PhoteryX sont bloqués ou mis en quarantaine, ajoutez une exclusion pour le dossier d'installation.                                     |
+   ![Bonne carte utilisée : le GPU 0 NVIDIA est actif](images/gpu-correct.png)                               |
 
 ---
 
